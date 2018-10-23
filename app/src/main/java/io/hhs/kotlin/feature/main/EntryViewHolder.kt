@@ -15,7 +15,7 @@ class EntryViewHolder(@NonNull itemView: View) : RecyclerView.ViewHolder(itemVie
 
     fun updateView(name: String?) {
         tv_entry.text = name
-        val className: String? = EntryAdapter.getActivityClassName(name)
+        val className: String? = getActivityClassName(name)
         if (className != null) {
             itemView.setOnClickListener {
                 val context = itemView.context

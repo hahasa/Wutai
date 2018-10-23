@@ -13,6 +13,13 @@ import io.hhs.kotlin.feature.objects.ObjectsActivity
 
 private const val KW_OBJECT = "object"
 
+fun getActivityClassName(name: String?): String? {
+    return when (name) {
+        KW_OBJECT -> ObjectsActivity::class.java.name
+        else -> null
+    }
+}
+
 class EntryAdapter : RecyclerView.Adapter<EntryViewHolder>() {
 
     private val names = arrayOf(KW_OBJECT)
@@ -27,15 +34,6 @@ class EntryAdapter : RecyclerView.Adapter<EntryViewHolder>() {
 
     override fun onBindViewHolder(p0: EntryViewHolder, p1: Int) {
         p0.updateView(names[p1])
-    }
-
-    companion object {
-        fun getActivityClassName(name: String?): String? {
-            return when (name) {
-                KW_OBJECT -> ObjectsActivity::class.java.name
-                else -> null
-            }
-        }
     }
 
 }
