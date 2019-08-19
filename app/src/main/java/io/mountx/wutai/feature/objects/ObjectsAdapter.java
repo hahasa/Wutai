@@ -1,4 +1,4 @@
-package io.hhs.kotlin.feature.objects;
+package io.mountx.wutai.feature.objects;
 
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;

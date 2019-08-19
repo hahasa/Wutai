@@ -1,11 +1,11 @@
-package io.hhs.kotlin.feature.objects
+package io.mountx.wutai.feature.objects
 
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
-import io.hhs.kotlin.R
+import io.mountx.wutai.R
 
 /**
  * @author hhs
