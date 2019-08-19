@@ -1,9 +1,9 @@
-package io.hhs.kotlin.feature.main
+package io.mountx.wutai.feature.main
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.widget.Toolbar
-import io.hhs.kotlin.R
+import io.mountx.wutai.R
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {

@@ -1,10 +1,10 @@
-package io.hhs.kotlin.feature.main
+package io.mountx.wutai.feature.main
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import io.hhs.kotlin.R
-import io.hhs.kotlin.feature.objects.ObjectsActivity
+import io.mountx.wutai.R
+import io.mountx.wutai.feature.objects.ObjectsActivity
 
 /**
  * @author hhs

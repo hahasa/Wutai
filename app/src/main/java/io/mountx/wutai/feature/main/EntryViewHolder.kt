@@ -1,4 +1,4 @@
-package io.hhs.kotlin.feature.main
+package io.mountx.wutai.feature.main
 
 import android.content.Intent
 import android.view.View
