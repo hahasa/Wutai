@@ -1,8 +1,8 @@
 package io.hhs.kotlin.feature.main
 
 import android.os.Bundle
-import android.support.v7.app.AppCompatActivity
-import android.support.v7.widget.Toolbar
+import androidx.appcompat.app.AppCompatActivity
+import androidx.appcompat.widget.Toolbar
 import io.hhs.kotlin.R
 import kotlinx.android.synthetic.main.activity_main.*
 
