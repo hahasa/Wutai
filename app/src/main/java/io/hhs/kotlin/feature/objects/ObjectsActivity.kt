@@ -1,9 +1,9 @@
 package io.hhs.kotlin.feature.objects
 
 import android.os.Bundle
-import android.support.v7.app.AppCompatActivity
-import android.support.v7.widget.Toolbar
 import android.view.MenuItem
+import androidx.appcompat.app.AppCompatActivity
+import androidx.appcompat.widget.Toolbar
 import io.hhs.kotlin.R
 import kotlinx.android.synthetic.main.activty_objects.*
 

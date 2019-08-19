@@ -1,9 +1,9 @@
 package io.hhs.kotlin.feature.main
 
 import android.content.Intent
-import android.support.annotation.NonNull
-import android.support.v7.widget.RecyclerView
 import android.view.View
+import androidx.annotation.NonNull
+import androidx.recyclerview.widget.RecyclerView
 import kotlinx.android.extensions.LayoutContainer
 import kotlinx.android.synthetic.main.item_entry.*
 
