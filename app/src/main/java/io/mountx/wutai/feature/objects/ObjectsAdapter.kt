@@ -10,7 +10,7 @@ import androidx.fragment.app.FragmentStatePagerAdapter
  */
 class ObjectsAdapter(fm: FragmentManager) : FragmentStatePagerAdapter(fm, BEHAVIOR_RESUME_ONLY_CURRENT_FRAGMENT) {
 
-    private val titles = arrayListOf("expression", "singleton", "companion", "jvmStatic")
+    private val titles = arrayOf("expression", "singleton", "companion", "jvmStatic")
 
     override fun getItem(position: Int): Fragment {
         return when (position) {

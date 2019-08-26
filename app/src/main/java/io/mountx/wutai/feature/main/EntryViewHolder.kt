@@ -2,16 +2,15 @@ package io.mountx.wutai.feature.main
 
 import android.content.Intent
 import android.view.View
-import androidx.annotation.NonNull
 import androidx.recyclerview.widget.RecyclerView
 import kotlinx.android.extensions.LayoutContainer
 import kotlinx.android.synthetic.main.item_entry.*
 
 /**
- * @author hhs
+ * @author Ha Sang
  * Created on 2018/10/22
  */
-class EntryViewHolder(@NonNull itemView: View) : RecyclerView.ViewHolder(itemView), LayoutContainer {
+class EntryViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView), LayoutContainer {
 
     fun updateView(name: String?) {
         tv_entry.text = name

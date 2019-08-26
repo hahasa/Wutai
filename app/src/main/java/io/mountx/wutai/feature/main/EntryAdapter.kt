@@ -7,7 +7,7 @@ import io.mountx.wutai.R
 import io.mountx.wutai.feature.objects.ObjectsActivity
 
 /**
- * @author hhs
+ * @author Ha Sang
  * Created on 2018/10/22
  */
 
